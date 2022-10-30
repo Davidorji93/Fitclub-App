@@ -23,8 +23,9 @@ const Header = () => {
     <img
      src={BARS} 
      style={{width: '1.5rem',
-      height: '1.5rem'
+      height: '1.5rem',
     }}
+    alt=""
      />
     </div>
     ) : (

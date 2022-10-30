@@ -29,7 +29,7 @@ const Testimonials = () => {
             <span>
                 <span style={{color: 'var(--orange)'}}> 
                 {testimonialsData[selected].name} 
-                </span>{" "}
+                </span>{""}
                  - {testimonialsData [selected].status}
             </span>
         </div>
@@ -50,7 +50,7 @@ const Testimonials = () => {
             animate={{opacity: 1, x: 0}}
             exit={{opacity: 0, x: -100}}
             transition={transition}
-             src={testimonialsData [selected].image} alt="" />
+             src={testimonialsData [selected].image} alt=""/>
             <div className="arrows">
                 <img
                    onClick={()=> {
